@@ -1,0 +1,33 @@
+
+
+static void Main(string[] args)
+    {
+      #region
+
+      string s1 = "0.45";
+
+      double cevrilenS1 = Convert.ToDouble(s1);
+
+      decimal s2 = 0.55m;
+
+      double cevrilenS2 = Convert.ToDouble(s2);
+
+      string s3 = "True";
+
+      bool cevrilenS3 = Convert.ToBoolean(s3);
+
+      int s4 = 35;
+
+      string cevrilenS4 = s4.ToString();
+
+      string s5 = "35";
+
+      int cevrilenS5 = Convert.ToInt32(s5);
+
+      int s6 = 35;
+
+      string cevrilenS6 = Convert.ToString(s6);
+
+      #endregion
+
+    }
